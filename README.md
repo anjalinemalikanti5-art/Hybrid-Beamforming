@@ -19,8 +19,12 @@ The goal is robust sensor array signal processing using a dataset of antenna sna
 ## Dataset
 Put your dataset CSV file inside `dataset/` folder.  
 Current example: `C_44_train_converted.csv`
+
+
 ##How to run
+
 bash
+
 g++ -std=c++17 hybrid.cpp -I path_to_eigen -o hybrid
 ./hybrid
 
