@@ -1,1 +1,18 @@
 
+Dependencies
+
+Python version: 3.10+
+
+Major libraries:
+
+Library	Purpose
+numpy	Matrix operations, complex numbers
+pandas	CSV reading/writing, data handling
+matplotlib	Plotting DOA, SNR, and beam patterns
+scipy	Signal processing (Savitzky–Golay, pinv)
+scikit-learn	Optional: if ML models are added later
+
+Optional extras if you expand your ML workflow:
+seaborn – nicer plots
+jupyter – for notebooks
+plotly – interactive 3D beam patterns
