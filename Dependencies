@@ -1,7 +1,9 @@
+C++ dependencies → Only Eigen library
+Compile with: g++ hybrid.cpp -o hybrid -std=c++17 -I /path/to/eigen
 
 ---
-
-## **Dependencies**
+Python
+## **Python Dependencies**
 
 - **Python 3.10+**
 - **Libraries:**
