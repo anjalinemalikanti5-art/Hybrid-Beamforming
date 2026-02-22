@@ -1,18 +1,20 @@
 
-Dependencies
+---
 
-Python version: 3.10+
+## **Dependencies**
 
-Major libraries:
+- **Python 3.10+**
+- **Libraries:**
+  - `numpy` – Matrix operations, complex numbers
+  - `pandas` – CSV read/write
+  - `matplotlib` – Plotting results
+  - `scipy` – Signal processing (Savitzky–Golay, pseudo-inverse)
+  - `scikit-learn` – Optional for ML enhancements
+  - `jupyter` – For running the notebook
+  - `seaborn` (optional) – Enhanced plotting
+  - `plotly` (optional) – Interactive 3D plots
 
-Library	Purpose
-numpy	Matrix operations, complex numbers
-pandas	CSV reading/writing, data handling
-matplotlib	Plotting DOA, SNR, and beam patterns
-scipy	Signal processing (Savitzky–Golay, pinv)
-scikit-learn	Optional: if ML models are added later
+**Install all dependencies via:**
 
-Optional extras if you expand your ML workflow:
-seaborn – nicer plots
-jupyter – for notebooks
-plotly – interactive 3D beam patterns
+```bash
+pip install -r requirements.txt
